@@ -15,20 +15,26 @@ function SkillsComponent() {
   });
   return (
     <section className="skills-container">
-      <div>
+      <div className="skills-container--text">
         <h3 className="text-white">HABILIDADES</h3>
       </div>
-        <div className="d-flex align-content-stretch flex-wrap">
-            {skills.map((skill) => {
-                return (
-                    <div key={skill.name} className="skills-container-content-item">
-                        <div className="skills-container-content-item-icon ">
-                            <img src={skill.img} alt="icon" />
-                        </div>
-                    </div>
-                );
-            })}
-        </div>
+      <div className="d-flex align-content-stretch flex-wrap skills-container-content">
+        {skills.map((skill) => {
+          return (
+            <div key={skill.name} className="skills-container-content-item">
+              <div></div>
+              <img
+                src={skill.img}
+                alt="icon"
+                className="skills-container-content-item-icon--image"
+              />
+              <div>
+                <p className="text-white skills-container-content-item--text">{skill.name.charAt(0).toUpperCase() + skill.name.slice(1)}</p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </section>
   );
 }
