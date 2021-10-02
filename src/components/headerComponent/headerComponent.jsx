@@ -31,7 +31,7 @@ function HeaderComponent() {
               Destacados
             </h4>
           </a>
-          <a onClick={navigate()} href="/#">
+          <a onClick={navigate()} href="#contact">
             <h4 className="collapse-options text-white BebasNeue">
               Contactame
             </h4>
@@ -64,7 +64,7 @@ function HeaderComponent() {
               Destacados
             </h4>
           </a>
-          <a onClick={navigate()} href="/#">
+          <a onClick={navigate()} href="#contact">
             <h4 className="collapse-options text-white BebasNeue">
               Contactame
             </h4>
