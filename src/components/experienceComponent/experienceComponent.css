@@ -1,0 +1,17 @@
+.experience-container{
+    padding: 80px 20px 200px;
+}
+
+.experience-container--text{
+    margin: 0px 10px 40px;
+}
+
+.experience-container--text > h3{
+    font-size: 36px;
+}
+
+@media screen and (min-width: 700px) {
+    .experience-container--text > h3{
+    font-size: 48px;
+    }
+}

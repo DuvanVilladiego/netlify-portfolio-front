@@ -7,6 +7,10 @@
     margin: 0px 0px 40px;
 }
 
+.skills-title{
+    font-size: 36px;
+}
+
 .skills-container-content {
     display: flex;
     flex-flow: wrap;
@@ -41,7 +45,6 @@
 
 @media screen and (min-width: 700px) {
     .skills-container-content-item{
-        width: 20%;
         margin: 20px 20px;
     }
 }

@@ -46,7 +46,7 @@ function ProfileComponent() {
         </div>
         <div className="profile-container--content">
           <h3>{name}</h3>
-          <p>{resume}</p>
+          <p className="text-break">{resume}</p>
         </div>
       </div>
     </section>

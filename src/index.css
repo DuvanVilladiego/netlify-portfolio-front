@@ -1,7 +1,7 @@
 body {
   scroll-behavior: smooth;
   min-width: 320px;
-  margin: 0;
+  margin: 0; 
   font-family: BebasNeue, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -14,4 +14,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
- 
+
+.BebasNeue {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.NotoSans {
+  font-family: 'Noto Sans', sans-serif;
+}

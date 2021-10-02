@@ -17,22 +17,22 @@ function HeaderComponent() {
     <header className="pos-f-t nav-container">
       <nav className="navbar navbar-dark ">
         <img className="img-item" src={logo} alt="Logo Duvan Villadiego" />
-        <div className="inverter-none">
+        <div className="inverter-none ">
           <a onClick={navigate()} href="/#">
-            <h4 className="collapse-options text-white">Home</h4>
+            <h4 className="collapse-options text-white BebasNeue">Home</h4>
           </a>
           <a onClick={navigate()} href="/#">
-            <h4 className="collapse-options text-white">
+            <h4 className="collapse-options text-white BebasNeue">
               Proyectos
             </h4>
           </a>
           <a onClick={navigate()} href="/#">
-            <h4 className="collapse-options text-white">
+            <h4 className="collapse-options text-white BebasNeue">
               Destacados
             </h4>
           </a>
           <a onClick={navigate()} href="/#">
-            <h4 className="collapse-options text-white">
+            <h4 className="collapse-options text-white BebasNeue">
               Contactame
             </h4>
           </a>
@@ -52,20 +52,20 @@ function HeaderComponent() {
       <div className="collapse" id="navbarToggleExternalContent">
         <div className="collapse-container ">
         <a onClick={navigate()} href="/#">
-            <h4 className="collapse-options text-white">Home</h4>
+            <h4 className="collapse-options text-white BebasNeue">Home</h4>
           </a>
           <a onClick={navigate()} href="/#">
-            <h4 className="collapse-options text-white">
+            <h4 className="collapse-options text-white BebasNeue">
               Proyectos
             </h4>
           </a>
           <a onClick={navigate()} href="/#">
-            <h4 className="collapse-options text-white">
+            <h4 className="collapse-options text-white BebasNeue">
               Destacados
             </h4>
           </a>
           <a onClick={navigate()} href="/#">
-            <h4 className="collapse-options text-white">
+            <h4 className="collapse-options text-white BebasNeue">
               Contactame
             </h4>
           </a>

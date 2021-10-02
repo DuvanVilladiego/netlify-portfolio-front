@@ -1,0 +1,56 @@
+.card-margin {
+  margin-top: 15px;
+}
+
+.lateral-padding {
+  padding: 0.2rem 0.5rem;
+}
+
+.card-body {
+  padding: 0.5rem 0.5rem 1rem;
+  background-color: #fb9300;
+}
+
+.card-img-container {
+  width: 100%;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-span {
+  font-size: 24px;
+}
+
+.card-title {
+  font-size: 32px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.social-network-icon-cards {
+  font-size: 60px;
+  color: black;
+}
+
+.text-align-flex-end {
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 600px) {
+    .card-body {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+    .card-margin{
+        margin-left: 15px;
+        max-width: 70%;
+    }
+    .card-body-content {
+        width: 320px;
+    }
+}
