@@ -6,7 +6,7 @@ function ContactComponent() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [feedback, setFeedback] = useState({});
-  const url = "http://localhost:3020/api/email/send";
+  const url = "https://portfolio-back-heroku.herokuapp.com/api/email/send";
   const sendEmail = async () => {
     if (name === "" || email === "" || message === "") {
       setFeedback({ error: "Porfavor rellene todos lo campos" });
